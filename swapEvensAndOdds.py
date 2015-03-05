@@ -1,7 +1,8 @@
 #!/usr/bin/python
 
 
-
+# Takes an array of even length with an equal number of odd and even values
+# swaps evens and odds so that every odd index has an odd value, and every even index has an even value
 def swapEvensAndOdds(myList, value=None):
 	length = len(myList)
 	if length % 2 != 0:
